@@ -37,11 +37,13 @@ class App extends Component  {
   return (
       <div>
        <img className="tube-logo" src="https://lh3.googleusercontent.com/-a2ZqKdy-hFM/VSHzDjhoqjI/AAAAAAAAAAo/D4wqDDQD-vE/es%2Blogo.png"  />
-        <SearchBar onSearchTermChange={videoSearch} />
-        <VideoDetail video={this.state.selectedVideo} />
-        <VideoList
-        onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
-        videos={this.state.videos} />
+        <div className="well">
+          <SearchBar onSearchTermChange={videoSearch} />
+          <VideoDetail video={this.state.selectedVideo} />
+          <VideoList
+          onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
+          videos={this.state.videos} />
+        </div>
       </div>
     );
   }
