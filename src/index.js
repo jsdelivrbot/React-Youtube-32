@@ -17,7 +17,7 @@ class App extends Component  {
     selectedVideo: null
    };
     // videos is the data.  set array to array of videos = (videos: videos)
-    this.videoSearch('hockey fights');
+    this.videoSearch('red pandas');
   }
 
 
