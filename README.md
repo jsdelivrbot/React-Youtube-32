@@ -1,25 +1,23 @@
-# ReduxSimpleStarter
+# EvanTube
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Simple React based application that lets you search youtube videos in real time.
 
-### Getting Started
+### Technologies
+React framework
+Youtube API
 
-There are two methods for getting started with this repo.
 
 #### Familiar with Git?
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone https://github.com/stewarea/React-Youtube
+> cd React-Youtube
 > npm install
 > npm start
+> open browser to localhost:8080
 ```
+#### Contact
+stewarea@gmail.com
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
 ```
